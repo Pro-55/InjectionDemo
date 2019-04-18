@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InjectionDemo</string>
+    <string name="string_app_scope_name">ApplicationScope</string>
+    <string name="string_click_me">Click Me!</string>
+</resources>
