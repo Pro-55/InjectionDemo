@@ -1,4 +1,4 @@
-package com.example.injectiondemo
+package com.example.injectiondemo.main
 
 import android.support.v7.widget.CardView
 

@@ -1,8 +1,9 @@
-package com.example.injectiondemo
+package com.example.injectiondemo.second
 
 import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.example.injectiondemo.R
 import kotlinx.android.synthetic.main.activity_second.*
 import toothpick.Toothpick
 import java.util.*

@@ -1,4 +1,4 @@
-package com.example.injectiondemo
+package com.example.injectiondemo.main
 
 import android.content.Context
 import android.content.Intent
@@ -9,6 +9,8 @@ import android.support.v7.widget.CardView
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.LinearSnapHelper
 import android.support.v7.widget.RecyclerView
+import com.example.injectiondemo.R
+import com.example.injectiondemo.second.SecondActivity
 import toothpick.Toothpick
 import java.util.*
 import javax.inject.Inject

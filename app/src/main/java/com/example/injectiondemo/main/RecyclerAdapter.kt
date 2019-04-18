@@ -1,17 +1,18 @@
-package com.example.injectiondemo
+package com.example.injectiondemo.main
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.layout_recycler_item.view.*
+import com.example.injectiondemo.R
+import kotlinx.android.synthetic.main.layout_vertical_recycler_item.view.*
 import java.util.*
 
 class RecyclerAdapter(private val mContext: Context, private val dataList: ArrayList<Int>, private val recyclerAdapterInterface: RecyclerAdapterInterface) : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
-        val view = LayoutInflater.from(mContext).inflate(R.layout.layout_recycler_item, viewGroup, false)
+        val view = LayoutInflater.from(mContext).inflate(R.layout.layout_vertical_recycler_item, viewGroup, false)
         return ViewHolder(view)
     }
 
